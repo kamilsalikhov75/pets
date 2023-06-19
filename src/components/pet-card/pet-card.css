@@ -1,0 +1,95 @@
+.pet__card {
+  width: 300px;
+  min-height: 590px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: #ffffff;
+  border-radius: 10px;
+}
+
+.pet__card-image {
+  width: 300px;
+  border-radius: 10px 10px 0px 0px;
+  margin-bottom: 10px;
+}
+
+.pet__card-info {
+  width: 250px;
+  margin: 0 auto;
+}
+
+.pet__card-block {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.pet__card-title {
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 27px;
+  color: #a2938c;
+}
+
+.pet__card-gender-block {
+  display: flex;
+  gap: 10px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19px;
+  color: #000000;
+  align-items: center;
+}
+
+.pet__card-gender-image {
+  width: 11px;
+}
+
+.pet__card-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  margin-bottom: 55px;
+}
+
+.ped__card-links {
+  display: flex;
+}
+
+.pet__card-link--left {
+  border-radius: 0 0 0 10px;
+}
+
+.pet__card-button,
+.pet__card-link {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  border: 1px solid #000;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  text-decoration: none;
+  color: #000;
+  background-color: transparent;
+  padding: 16px 0;
+  transition: all 0.3s;
+  cursor: pointer;
+}
+
+.pet__card-link--right,
+.pet__card-button--right {
+  border-left: none;
+  border-radius: 0 0 10px 0;
+}
+
+.pet__card-button:hover,
+.pet__card-link:hover {
+  background-color: #8c786d;
+  color: #ffffff;
+}

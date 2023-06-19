@@ -1,0 +1,25 @@
+.input {
+  padding: 10px;
+  width: calc(100% - 20px);
+  border: none;
+  background: #fffefa;
+  border-radius: 10px;
+  color: #8c786d;
+}
+
+.input,
+.input::placeholder {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 27px;
+}
+
+@media (max-width: 750px) {
+  .input,
+  .input::placeholder {
+    font-size: 16px;
+    line-height: 19px;
+  }
+}

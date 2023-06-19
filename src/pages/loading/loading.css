@@ -1,0 +1,20 @@
+.loading {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  height: calc(100vh - 224px - 244px - 50px);
+}
+
+.loading__title {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 48px;
+  color: #a2938c;
+}
+
+@media (max-width: 1600px) {
+  .loading {
+    height: calc(100vh - 174px - 154px - 50px);
+  }
+}

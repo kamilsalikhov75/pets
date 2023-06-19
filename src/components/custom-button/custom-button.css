@@ -1,0 +1,27 @@
+.button {
+  padding: 10px;
+  width: 100%;
+  border-radius: 10px;
+  background-color: #fffefa;
+  border: none;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 27px;
+  color: #8c786d;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.button:hover {
+  background-color: #8c786d;
+  color: #fffefa;
+}
+
+@media (max-width: 750px) {
+  .button {
+    font-size: 16px;
+    line-height: 19px;
+  }
+}

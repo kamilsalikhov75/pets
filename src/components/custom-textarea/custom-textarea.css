@@ -1,0 +1,27 @@
+.textarea {
+  padding: 10px;
+  height: 190px;
+  resize: none;
+  width: calc(100% - 20px);
+  border: none;
+  background: #fffefa;
+  border-radius: 10px;
+}
+
+.textarea,
+.textarea::placeholder {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 27px;
+  color: #8c786d;
+}
+
+@media (max-width: 750px) {
+  .textarea,
+  .textarea::placeholder {
+    font-size: 16px;
+    line-height: 19px;
+  }
+}

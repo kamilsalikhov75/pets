@@ -1,0 +1,16 @@
+.pets__select {
+  background: #cbc3be;
+  border-radius: 10px;
+  padding: 10px;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 27px;
+  color: #8c786d;
+  margin-bottom: 30px;
+}
+.pets__block{
+  display: flex;
+  justify-content: space-around;
+  row-gap: 30px;
+  flex-wrap: wrap;
+}

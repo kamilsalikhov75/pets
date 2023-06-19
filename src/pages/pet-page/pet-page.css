@@ -1,0 +1,39 @@
+.pet__container {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  align-items: start;
+  flex-wrap: wrap;
+}
+
+.pet__img {
+  max-width: 600px;
+  width: 100%;
+}
+
+.pet__info {
+  min-width: 300px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.pet__title {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 48px;
+  color: #a2938c;
+}
+
+.pet__text {
+  padding: 15px;
+  border-radius: 10px;
+  background-color: #91bebb;
+  color: #ffffff;
+}
+
+.pet__shelter {
+  padding: 15px;
+  border-radius: 10px;
+  border: 1px solid #a2938c;
+}
